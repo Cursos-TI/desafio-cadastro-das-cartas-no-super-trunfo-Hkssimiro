@@ -4,8 +4,8 @@
  
     //Variáveis das cartas 1 e 2.
 
-    char estado1 [8] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'};
-    char estado2 [8] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'};
+    char estado1 [2] = {'a', 'b'};
+    char estado2 [2] = {'a', 'b'};
     char nome_cidade1 [20];
     char nome_cidade2 [20];
     char codigo_carta1 [4];
@@ -65,7 +65,7 @@
      printf ("População: %d\n", populacao1);
      printf ("Área (em km²): %.2f\n", area1);
      printf ("PIB: %.2f\n", PIB1);
-     printf ("Número de Pontos Turísticos: %d\n", pontos_turisticos1);
+     printf ("Números de Pontos Turísticos: %d\n", pontos_turisticos1);
 
      printf ("Carta 2:\n");
      
@@ -75,7 +75,7 @@
      printf ("População: %d\n", populacao2);
      printf ("Área (em km²): %.2f\n", area2);
      printf ("PIB: %.2f\n", PIB2);
-     printf ("Número de Pontos Turísticos: %d\n", pontos_turisticos2);
+     printf ("Números de Pontos Turísticos: %d\n", pontos_turisticos2);
  
  
      return 0;
