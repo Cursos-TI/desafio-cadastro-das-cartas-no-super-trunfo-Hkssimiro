@@ -35,7 +35,7 @@
      scanf("%f", &area1);
      printf("Digite qual o PIB:\n");
      scanf("%f", &PIB1);
-     printf("Digite quantos pontos turisticos:\n");
+     printf("Digite numero de pontos turisticos:\n");
      scanf ("%d", &pontos_turisticos1);
  
      printf("Carta 02:\n");
@@ -52,7 +52,7 @@
      scanf ("%f", &area2);
      printf ("Digite qual o PIB:\n");
      scanf ("%f", &PIB2);
-     printf ("Digite quantos pontos turisticos:\n");
+     printf ("Digite numero de pontos turisticos:\n");
      scanf ("%d", &pontos_turisticos2);
      
      // Utilizando dos dados apresentados para preencher as cartas 1 e 2.
